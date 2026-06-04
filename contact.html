@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact - Muhammad | Rantzoid</title>
+<meta name="description" content="Email, phone, and WhatsApp. Reply inside 12 hours."/>
+<meta property="og:title" content="Contact - Muhammad | Rantzoid"/>
+<meta property="og:description" content="Email, phone, and WhatsApp. Reply inside 12 hours."/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css"/>
+</head>
+<body class="min-h-screen">
+<header class="sticky top-0 z-50 backdrop-blur-md bg-[#0B0B0B]/80 border-b border-soft">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+    <a href="index.html" class="text-xl h-bold tracking-tight">Muhammad <span class="gold">| Rantzoid</span></a>
+    <nav class="hidden md:flex items-center gap-8"><a href="index.html" class="nav-link ">Home</a><a href="work.html" class="nav-link ">Work</a><a href="process.html" class="nav-link ">Tech & Process</a><a href="contact.html" class="nav-link active">Contact</a><a href="contact.html" class="btn-gold !py-3 !px-6 text-sm">Start Project</a></nav>
+    <button data-nav-toggle class="md:hidden p-2 border border-soft">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div data-nav-mobile class="hidden md:hidden px-6 pb-4 border-t border-soft"><a href="index.html" class="block py-3 nav-link border-b border-soft">Home</a><a href="work.html" class="block py-3 nav-link border-b border-soft">Work</a><a href="process.html" class="block py-3 nav-link border-b border-soft">Tech & Process</a><a href="contact.html" class="block py-3 nav-link border-b border-soft">Contact</a><a href="contact.html" class="btn-gold w-full text-center mt-4">Start Project</a></div>
+</header>
+<main>
+
+<section class="max-w-7xl mx-auto px-6 pt-20 pb-12">
+  <div class="gold text-sm mb-4 tracking-wider fade-up">CONTACT</div>
+  <h1 class="fade-up delay-1 text-5xl md:text-7xl leading-[0.95]">Let's <span class="gold">talk</span>.</h1>
+  <p class="fade-up delay-2 muted mt-6 text-lg max-w-2xl">Pick the channel that works. I reply inside 12 hours.</p>
+</section>
+
+<section class="max-w-7xl mx-auto px-6 pb-12">
+  <div class="grid md:grid-cols-3 gap-6">
+    <a href="mailto:rantzoid.business@gmail.com" class="tilt bg-card border border-soft p-8 block hover:border-[#D4AF37] transition-colors"><div class="tilt-inner"><div class="gold text-sm mb-3">EMAIL</div><div class="text-xl h-bold break-all">rantzoid.business@gmail.com</div><div class="muted text-sm mt-3">Best for project briefs &amp; quotes.</div></div></a>
+    <a href="tel:+14099347561" class="tilt bg-card border border-soft p-8 block hover:border-[#D4AF37] transition-colors"><div class="tilt-inner"><div class="gold text-sm mb-3">PHONE</div><div class="text-xl h-bold">+1 409-934-7561</div><div class="muted text-sm mt-3">Best for fast questions.</div></div></a>
+    <a href="https://wa.me/923305012788" class="tilt bg-card border border-soft p-8 block hover:border-[#D4AF37] transition-colors"><div class="tilt-inner"><div class="gold text-sm mb-3">WHATSAPP</div><div class="text-xl h-bold">+92 330 5012788</div><div class="muted text-sm mt-3">Fastest reply, any time zone.</div></div></a>
+  </div>
+</section>
+
+<section class="max-w-3xl mx-auto px-6 py-16">
+  <div class="bg-card border border-soft p-8 md:p-12">
+    <h2 class="text-3xl md:text-4xl mb-2">Project brief.</h2>
+    <p class="muted mb-8">Four fields. No spam. No drip sequences.</p>
+    <form onsubmit="event.preventDefault();this.querySelector('button').innerText='Sent. Reply within 12 hours.'" class="space-y-5">
+      <div><label class="block text-sm muted mb-2">Name</label><input required type="text" class="w-full bg-[#0B0B0B] border border-soft px-4 py-3 text-white"/></div>
+      <div><label class="block text-sm muted mb-2">Business Email</label><input required type="email" class="w-full bg-[#0B0B0B] border border-soft px-4 py-3 text-white"/></div>
+      <div><label class="block text-sm muted mb-2">Phone</label><input required type="tel" class="w-full bg-[#0B0B0B] border border-soft px-4 py-3 text-white"/></div>
+      <div><label class="block text-sm muted mb-2">Message</label><textarea required rows="5" class="w-full bg-[#0B0B0B] border border-soft px-4 py-3 text-white" placeholder="What's the business and what's broken?"></textarea></div>
+      <button type="submit" class="btn-gold w-full">Send Brief</button>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="border-t border-soft mt-32">
+  <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8">
+    <div>
+      <div class="text-lg h-bold">Muhammad <span class="gold">| Rantzoid</span></div>
+      <p class="muted mt-2 text-sm max-w-xs">Conversion-focused websites for service-based businesses.</p>
+    </div>
+    <div class="flex flex-col gap-2 text-sm">
+      <a href="mailto:rantzoid.business@gmail.com" class="nav-link">rantzoid.business@gmail.com</a>
+      <a href="tel:+14099347561" class="nav-link">+1 409-934-7561</a>
+      <a href="https://wa.me/923305012788" class="nav-link">WhatsApp: +92 330 5012788</a>
+      <a href="https://www.youtube.com/@Rantzoid" class="nav-link">YouTube @Rantzoid</a>
+    </div>
+  </div>
+  <div class="border-t border-soft py-6 text-center text-xs muted">© 2026 Muhammad | Rantzoid. All rights reserved.</div>
+</footer>
+<script src="assets/site.js"></script>
+</body></html>
